@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo Selector</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(216, 236, 138);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: rgb(105, 47, 47);
+            background-color: blue;
+        }
+        a:visited{
+            background-color: yellow;
+        }
+        a:active{
+            background-color:darkblue;
+        }
+        
+        .btn{
+            background-color: crimson;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color:darkgoldenrod;
+            background-color:rgb(223, 245, 201);
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id ="cont1">
+        <h3> This is my heading</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ex, delectus totam, nisi architecto nemo deleniti commodi perferendis nulla repellat necessitatibus nostrum enim dicta. Quae ipsam nobis saepe consequatur ipsa.</p>
+        <a href="https://google.com" class="btn">Read more</a>
+         <button class="btn">Contact us</button>
+    </div>
+    
+</body>
+</html>
